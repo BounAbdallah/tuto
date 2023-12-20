@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+body{
+    background: #F3F5F5;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+/*En tête de la page */
+.header{
+    background: #f6bb81;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    background: #f6bb81;
+    border-bottom: 1px solid #191919;
+}
+.cont{
+    border: 1px solid #191919;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+vertical-align: middle;
+    border-radius: 30px;
+}
+.nav-bar img{
+    width: 140px;
+    height: 100%;
+}
+.nav-bar ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.nav-bar ul {
+    padding-left: 40px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #191e1d;
+}
+
+.nav-bar ul li a:hover{
+    border-bottom: 5px solid #191e1d;
+   
+}
+.accueil{
+    display: flex;
+}
+.accueil img{
+    width: 60%;
+}
+.accueil .texte-conente{
+    padding-left: 50px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.texte-conente h3{
+    font-size: 30px;
+    font-family: "Aleo", serif;
+}
+.texte-conente span{
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    vertical-align: middle;
+    background: black;
+    width: 400px;
+    height: 70px;
+}
+.texte-conente span img{
+    width: 30px;
+    margin-right: 15px;
+}
+.texte-conente a{
+    text-decoration: none;
+    color: #F3F5F5;
+    font-size: 22px;
+}
+/*Fin de l'en tête */
+/* code du corp de la page*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.section1 h2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+}
+.section1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    width: 70%;
+    margin-top: 20px auto;
+    place-items: center;
+
+}
+.qualite:nth-child(1){
+    border-top:1px solid #a6753f ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.image{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
+.qualite{
+   
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #a6753f;
+    border-left: 1px solid #a6753f;
+    border-right: 1px solid #a6753f;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display: flex;
+}
+.qualite .txt h3{
+    color: #a6753f;
+    padding-top: 00px;
+}
+
+
+/* Fin code section 1 */
+
+
+/* ici code carte1 */
+
+.carte-1{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 220px;
+    margin-top: 50px;
+    margin-right: 40px;
+    background: #202024;
+    display: flex;
+}
+.carte-1 .txt{
+    color: #a6753f;
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 70px;
+    font-family: "Poppins", sans-serif;
+
+}
+.carte-1 .txt h2{
+    font-size: 32px;
+    font-family: "Aleo", serif;
+}
+.carte-1 .txt p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+}
+.carte-1 img{
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 70px;
+    width: 300px;
+    height: 300px;
+}
+.section{
+    margin-right: 20px;
+   
+}
+.section .bg{
+    position: absolute;
+    margin-left: 1340px;
+    padding-right: 0px;
+}
+.img1{
+    position: absolute;
+    
+    margin-right: 70px;
+    padding-right: 40px;
+}
+
+
+/* Fin code carte1 */
+
+
+/* ici code section temoignage */
+
+.section-temoignage{
+    display: flex;
+    margin: 0px;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-evenly;
+}
+.section-temoignage .card{
+    margin-left: 50px;
+    margin: 10px;
+    border: 1px solid #a6753f;
+    display: flex;
+}
+
+.card img{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+.card .txt h3{
+    color: #a6753f;
+    font-size: 24px;
+}
+/* Fin du  code section-1  */
+
+/* Ici code section-histoire */
+
+.section-histoire {
+    margin-top: 60px;
+   margin-left: 300px;
+   margin-right: 200px;
+
+}
+
+.titre-histoire span{
+    
+    font-size: 32px;
+    font-family: "Aleo", serif;
+}
+.ligne{
+    background: #a6753f;
+    width: 85%;
+    border-radius: 20px;
+    margin-top:4px;
+    margin-bottom:4px;
+    height: 2px;
+}
+
+.histoire1 p{
+    font-size: 24px;
+    font-weight: 100;
+    padding-right: 30px;
+    color: #4f5f6e;
+}
+.histoire1 p span{
+    font-weight: 600;
+    font-size: 32px;
+    color: #4f5f6e;
+}
+.histoire1{
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.histoire1 img{
+    margin: 40px;
+    width: 300px;
+}
+.paragraphe .p1{
+    color: #000000;
+    font-size: 24px;
+    font-weight:bolder;
+    font-family: 'Roboto Slab', serif;
+}
+.paragraphe .p2{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight:bolde;
+    font-family:robo;
+}
+.paragraphe{
+    margin-right: 80px;
+}
+
+.section-contact{
+    display: flex;
+    background: #f6bb80;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-right: 10px;
+}
+
+.contact{
+    margin-top: 90px;
+    margin-left: 0px;
+}
+.map{
+    margin: 50px;
+}
+.details-num h3{
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details-num h3 span{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.num{
+    display: flex;
+}
+.num p{
+    margin-left: 20px;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 8px;
+    border-radius: 20px;
+}
+.num p a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+.form1{
+    display: flex;
+}
+.form2{
+    display: flex;
+}
+.mail{
+    margin-left: 20px;
+}
+.tel input{
+    width: 280px;
+    height: 40px;
+}
+.mail input{
+    width: 280px;
+    height: 40px;
+}
+.form1 input{
+    margin-top: 30px;
+    width: 280px;
+    height: 40px;
+}
+.message textarea{
+    width: 620px;
+    height: 40px;
+}
+.btn input{
+    width: 624px;
+    height: 40px;
+    background: #000000;
+    color: #F3F5F5;
+    font-size: 18px;
+}
+footer{
+    background: #000000;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-right: 10px;
+    margin-top: 50px;
+    display: flex;
+}
+.pied{
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+}
+.logo img{
+    padding-top: 10px;
+    margin-left: 250px;
+    margin-right: 200px;
+    width: 200px;
+}
+.pied span{
+    color: #a6753f;
+}
+.social{
+    display: flex;
+    color: #a6753f;
+}
+.social a {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.social img{
+    margin-left: 20px;
+}
+/* Code de responsive */
+@media screen and (max-width: 768px) {
+    /* Ajoutez des styles spécifiques pour les écrans mobiles ici */
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+}  
