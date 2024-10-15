@@ -754,7 +754,7 @@
         <mxCell id="xZKCAIYCEQuovOdEouhJ-13" value="&amp;nbsp;Assigner des rôles et permissions à chaque utilisateur." style="ellipse;whiteSpace=wrap;html=1;" parent="iHqPtqOx0aKrCAnldwGF-1" vertex="1">
           <mxGeometry x="478.819044795784" y="525" width="164.50959156785245" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="xZKCAIYCEQuovOdEouhJ-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;startArrow=none;startFill=0;" parent="iHqPtqOx0aKrCAnldwGF-1" source="xZKCAIYCEQuovOdEouhJ-16" target="xZKCAIYCEQuovOdEouhJ-8" edge="1">
+        <mxCell id="xZKCAIYCEQuovOdEouhJ-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;startArrow=none;startFill=0;dashed=1;" parent="iHqPtqOx0aKrCAnldwGF-1" source="xZKCAIYCEQuovOdEouhJ-16" target="xZKCAIYCEQuovOdEouhJ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xZKCAIYCEQuovOdEouhJ-15" value="Includ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="xZKCAIYCEQuovOdEouhJ-14" connectable="0" vertex="1">
