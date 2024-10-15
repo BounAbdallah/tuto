@@ -1059,7 +1059,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3zqnnHgLb4OAkIKSgqSX" name="Diagramme use case Gestion des Paiements">
-    <mxGraphModel dx="1908" dy="1610" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1115,13 +1115,13 @@
         <mxCell id="-uiyJMnolbMUeKTP-8PM-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Diagramme use case&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;Gestion des Paiements&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5wceUG6O8--bG0QJne7d-2" vertex="1">
           <mxGeometry x="522.9963636363636" y="140" width="210.90909090909088" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-uiyJMnolbMUeKTP-8PM-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5wceUG6O8--bG0QJne7d-2" source="-uiyJMnolbMUeKTP-8PM-17" target="-uiyJMnolbMUeKTP-8PM-14" edge="1">
+        <mxCell id="-uiyJMnolbMUeKTP-8PM-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5wceUG6O8--bG0QJne7d-2" source="-uiyJMnolbMUeKTP-8PM-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="484" as="targetPoint" />
+            <mxPoint x="107.36889006342494" y="483" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-uiyJMnolbMUeKTP-8PM-17" value="Gestionnaire" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="5wceUG6O8--bG0QJne7d-2" vertex="1">
-          <mxGeometry x="91.54545454545456" y="570" width="31.636363636363633" height="60" as="geometry" />
+          <mxGeometry x="91.54545454545456" y="595" width="31.636363636363633" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-uiyJMnolbMUeKTP-8PM-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="5wceUG6O8--bG0QJne7d-2" source="-uiyJMnolbMUeKTP-8PM-19" target="-uiyJMnolbMUeKTP-8PM-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
